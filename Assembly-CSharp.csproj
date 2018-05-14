@@ -51,52 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Buttons.cs" />
      <Compile Include="Assets\_Scripts\CameraController.cs" />
      <Compile Include="Assets\_Scripts\MoveObject.cs" />
      <Compile Include="Assets\_Scripts\RandomSpawn.cs" />
+     <Compile Include="Assets\_Scripts\Restart.cs" />
+     <Compile Include="Assets\_Scripts\StarMover.cs" />
      <Compile Include="Assets\_Scripts\Trigger.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\ActivateTrigger.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\AutoMoveAndRotate.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\CameraRefocus.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\CurveControlledBob.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\DragRigidbody.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\DynamicShadowSettings.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\EventSystemChecker.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\FollowTarget.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\ForcedReset.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\FOVKick.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\FPSCounter.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\LerpControlledBob.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\ObjectResetter.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\PlatformSpecificContent.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\SimpleMouseRotator.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\SmoothFollow.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\TimedObjectActivator.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\TimedObjectDestructor.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\WaypointCircuit.cs" />
-     <Compile Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <None Include="Assets\Handpainted Forest Environment Free Sample\Terrain Trees\ReadMe.txt" />
-     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Handpainted Forest Environment Free Sample\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <Compile Include="Assets\Assets\Simple_Day_and_Night_Cycle\Scripts\DayAndNightControl.cs" />
+     <Compile Include="Assets\Assets\Simple_Day_and_Night_Cycle\Scripts\VisualClockController.cs" />
+     <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+     <Compile Include="Assets\LevelManager.cs" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\ReadMe.txt" />
+     <None Include="Assets\Assets\Simple_Day_and_Night_Cycle\ReadMe.txt" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>

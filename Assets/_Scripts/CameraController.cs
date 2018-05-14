@@ -1,5 +1,5 @@
 ﻿// Jamshed Ashurov 
-// 04/11/2018
+// 05/03/2018
 // This script sets up and controls the camera 
 using System.Collections;
 using System.Collections.Generic;

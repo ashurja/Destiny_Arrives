@@ -16,7 +16,7 @@ public class MoveObject : MonoBehaviour {
 	//How much movement is a swipe?
 	public float i_comfort;
 	//Speed of the player
-	public float speed= 12;
+	public float speed;
 	//direction to move
 	Vector3 direction= Vector3.left;
 

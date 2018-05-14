@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Trigger : MonoBehaviour {
 	
@@ -22,12 +23,12 @@ public class Trigger : MonoBehaviour {
 	}
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
-			rs.SpawnTile ();
+			SceneManager.LoadScene("Win");
+		}
+	}
 			// If the collider detects Player, it will call the "SpawnTile" function from the other script. 
 				//}
 				//if (other.tag == "Route") {
 				//return; 
 				//}
-		}
-	}
 }
